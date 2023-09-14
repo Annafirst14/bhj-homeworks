@@ -8,6 +8,6 @@
       });
     }
   })
-  .catch((error) => {
+  catch((error) => {
     console.error("Ошибка при получении данных:", error);
   });
