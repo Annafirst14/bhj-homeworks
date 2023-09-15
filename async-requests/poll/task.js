@@ -5,9 +5,6 @@
         button.addEventListener("click", () => {
           alert("Спасибо, ваш голос засчитан!");
         });
-      });
-    }
-  })
   catch((error) => {
     console.error("Ошибка при получении данных:", error);
   });
